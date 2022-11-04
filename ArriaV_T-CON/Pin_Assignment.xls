@@ -1,0 +1,10 @@
+Name	Description	Total Pins
+CLK	时钟	1
+CS#	片选，低有效	1
+SO/SIO1	输出，或是x2模式里的最低bit输出	1
+SIO2	x4模式里的输出	1
+SIO3	x4模式里的输出	1
+SI/SIO4	输入，或是x4模式里的输出	1
+VCC	电源 3.3V	1
+GND	接地	1
+	Total	8
