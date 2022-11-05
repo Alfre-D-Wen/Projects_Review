@@ -1,10 +1,20 @@
-Name	Description	Total Pins
-CLK	时钟	1
-CS#	片选，低有效	1
-SO/SIO1	输出，或是x2模式里的最低bit输出	1
-SIO2	x4模式里的输出	1
-SIO3	x4模式里的输出	1
-SI/SIO4	输入，或是x4模式里的输出	1
-VCC	电源 3.3V	1
-GND	接地	1
-	Total	8
+Name	Description	Per DDR3 Pin Numbers		Total Pins
+DQ	数据，4颗不共用	16	4	64
+LDQs	类似时钟信号，只对低byte有效	2	1	2
+UDQs	类似时钟信号，只对高byte有效	2	1	2
+A	地址	14	1	14
+BA	bank地址	3	1	3
+CK	时钟，差分信号	2	1	2
+CKe	时钟使能	1	1	1
+CS	片选	1	1	1
+ODT		1	1	1
+RASn	控制信号	1	1	1
+CASn	控制信号	1	1	1
+WEn	控制信号	1	1	1
+RESETn	复位	1	1	1
+LDM	低8位Mask	1	1	1
+UDM	高8位Mask	1	1	1
+Vss	接地	1	1	1
+Vdd	芯片电源	1	1	1
+Vddq	数据传输电源	1	1	1
+	Total	51		99
